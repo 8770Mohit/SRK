@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: 70px;
+    padding-top: 10px;
+    background-color: aqua;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+
+.gopi
+{
+
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 26px;
+    color:fuchsia;
+
+}

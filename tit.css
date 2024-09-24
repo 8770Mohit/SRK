@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sdm{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    background-color: yellowgreen;
+}
+.marg{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    justify-self: baseline;
+    
+
+}
+.hero{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.kzPstrXLV1OOpyih__W4JAHaEo&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    padding-top:400px ;
+    margin-left: 500x;
+}

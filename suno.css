@@ -1,0 +1,45 @@
+.cantainaer{
+    border: 3px solid red;
+    height: 5000px;
+    margin: 100px;
+    display: flex;
+}
+.secand{
+    
+    border: 3px solid black;
+    
+    height: 1000px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    background-color: brown;
+     position: relative;
+    /* left: 200px; */ 
+    /* position: absolute; BY DEFOULT position: RELATIVE IS NO RELATIVE AND position: ABSULT LEFT;; */
+    left: 0px;
+    top: 0;
+}
+.box2{
+    background-color: aqua;
+    position: absolute;
+    left: 110px;
+    z-index: 52;
+
+}
+.box3{
+    background-color: grey;
+    position: fixed;
+    top: 0;
+   
+
+}
+.box4{
+    background-color: tomato;
+    position: sticky;
+    top: 0;
+    z-index: 19;
+   
+}

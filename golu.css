@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.prichi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    padding-top: 10px;
+    block-size: 60px;
+}
+.prichi ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.ravi{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    background-position: fixd;
+}
+.ravi ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-top: 10px;
+}
+.mary {
+    
+    margin-left: 120px;
+    margin-top: 2px;
+    font-weight: bold;
+    font-size: 30px;
+    padding-bottom: 300px;
+    
+}
+.mary p{
+    gap: 7em;
+}
+/* .cantainaer{
+    border: 3px solid red;
+    height: 967px;
+    margin-left: 0px;
+    display: flex;
+} */
+/* .box{
+    height: 100px;
+    width: 100px;
+} */
+.box1{
+    background-color: rgb(79, 53, 53);
+     position: relative;
+    /* left: 200px; */ */
+    position: absolute; /*BY DEFOULT position: RELATIVE IS NO RELATIVE AND position: ABSULT LEFT;;*/
+    left: 0px;
+    top: 0;
+}
+body{
+    background-image: url(yahu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p{
+    margin-left: 1100px;
+    padding-top: 190px;
+}

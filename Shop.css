@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+}
+.red{
+   
+    justify-content: center;
+    margin-left: 500px;
+}
+.hellow{
+    display: flex;
+    list-style: none;
+    margin-left: 40px;
+}
+.figma{
+    margin-left: 550px;
+    display: flex;
+    padding-top: 10px;
+   justify-self: baseline;
+}
+.gama{
+    margin-left: 1450px;
+    align-items: right;
+    display: flex;
+    list-style: none;
+    padding-top: -40px;
+}
+
+.www{
+    padding-top: 180px;
+    margin-left: 700px;
+}
+.school{
+    padding-top: 10px;
+    margin-left: 650px;
+}
+.butten{
+    margin-left: 750px;
+    padding: 10px;
+}
+.goopi{
+    padding-bottom: 210px;
+    margin-left: 600px;
+   
+}
+#sdiv2 img:hover{
+    scale: 1.2;
+    transition:all 0.5s;
+    margin-left: 400px;
+}
+#for{
+    background-image: url('https://fashion.minimog.co/cdn/shop/products/47871703.webp?v=1708332569&width=360');
+    height: 500px;
+    width: 350px;
+    display: flex;
+}
+#for:hover{
+    transition:all 0.5s;
+
+    background-image: url('https://myindianthings.com/cdn/shop/products/Copyof52_600x.jpg?v=1665764568');
+}
+#dada{
+    background-image: url('https://fashion.minimog.co/cdn/shop/products/47871935.jpg?v=1708332387&width=360');
+    height: 500px;
+    width: 350px;
+    display: flex;
+}
+#dada:hover{
+    transition:all 0.5s;
+    background-image: url('https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ5zaw0fQpVr9TzhV-9pKNTQSAVgEBpnuvv8EaqGlJy-FFVqmKqReyvxz-ajkltx89qvueZaftG6fxA073NJ-wlgmmuH7dxfg&usqp=CAE');
+}
+#s{
+    display: flex;
+    justify-content: center;
+}
+#sdiv2{
+    display: grid;
+    grid-template-columns: auto auto;
+    overflow-y: scroll;
+    height: 800px;
+}

@@ -1,0 +1,44 @@
+.cantenar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: navy;
+    border: 2px solid yellow;
+    display: flex;
+}
+.ch1{
+    background-color: red;
+}
+.ch2{
+    background-color: aqua;
+}
+.ch3{
+    background-color: blueviolet;
+}
+.main{
+    
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.p30{
+    
+    background-color: yellow;
+    display: flex;
+}
+.p20{
+    background-image: url('sapna.jpg') no-repeat;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+}
+.orang{
+    background-image: url(yahu.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

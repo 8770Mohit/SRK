@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size: 70px;
+    padding-top: 10px;
+    background-color: aqua;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+
+}
+.gopal{
+    padding-top: 300px;
+    margin-left: 280px;
+}
+.www{
+    padding-bottom: 750px;
+    margin-left: 750px;
+}
+.ss{
+    display: flex;
+    list-style: none;
+}
+
+.gopi p{
+    padding-top: 250px;
+    margin-right: 40px;
+}
+.gopi h1{
+    padding-top: 190px;
+    margin-left: 80px;
+}
+.gopi button{
+    margin-left: 150px;
+}
+.left h1{
+    padding-top: 300px;
+    margin-left: 80px;
+    
+}
+.left p{
+    margin-left: 80px;
+    padding-top: 90px;
+}
+.left img{
+    margin-left: 570px;
+    padding-bottom: 30px;
+    display: flex;
+}
+#for{
+    background-image: url('https://zest-fleek.myshopify.com/cdn/shop/files/collection-card-8.jpg?v=1676284998&width=360');
+    height: 500px;
+    width: 350px;
+    float: right;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#for:hover{
+    transition:all 0.5s;
+
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.iSOoipcsmZE2WV_2vNhHEQHaEo&pid=Api&P=0&h=180');
+}
+    a
+{
+    text-decoration: none;
+    font-size: 26px;
+    color:fuchsia;
+
+}
+.head-content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+
+.video_beach{
+    position: absolute;
+    padding-top: 280px;
+    margin-left: 110px;
+}
+#video_beach p h1{
+    padding-top: 130px;
+}

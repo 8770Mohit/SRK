@@ -1,0 +1,38 @@
+.item:first-child{
+    background-color: aqua;
+}
+/* this is suddoclass */
+.item:last-child{
+    background-color: rgb(143, 143, 93);
+    color: wheat;
+}
+.item:nth-child(3){
+    background-color: tomato;
+    color: red;
+}
+/* every nth element */
+li:nth-child(2n){
+    background-color: springgreen;
+}
+li:nth-child(odd){
+    background-color: blueviolet;
+}
+li:nth-child(even){
+    background-color: skyblue;
+}
+a{
+    color: black;
+}
+
+a[target="_blank"]{
+    background-color: yellow;
+}
+a:hover{
+    background-color: aqua;
+}
+input[type="text"]{
+    background-color: violet;
+}
+input[type="email"]{
+    background-color: rgb(34, 204, 96);
+}

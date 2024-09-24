@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    margin: 0px;
+    background-color: rgb(128, 128, 128);
+    width: 1525px;
+    
+}
+.navbar li img{
+     left: 1%;
+}
+.navbar li li{
+    display: flex;
+    list-style: none;
+    margin-right: 600px;
+    overflow-x: hidden;
+}
+.o {
+    margin-right: 279px;
+}
+
+.navbar ul{
+    display: flex;
+    width: 10px;
+    list-style: none;
+}
+ .navbar li img{
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+}
+ .navbar li{
+    display: flex;
+    justify-content: space-around;
+}
+section {
+    width: 40px;
+    height: 30px;
+    justify-content: space-between;
+    list-style: none;
+}
+input{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    
+}
+i{
+    width: 30px;
+    height: 30px;
+    display: flex;
+}
+
+.navbar2{
+    padding: 10px;
+    background-color: aqua;
+    width: 1505px;
+}
+.navbar2 ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.oops img{
+    width: 600px;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.Baby{
+    padding-top: 10px;
+    margin-left: 500px;
+}
+.mood{
+    padding-top: 10px;
+    margin-left: 200px;
+}
+.Baby2{
+    margin-left: 680px;
+}
+.Baby3{
+    margin-left: 690px;
+}
+.Baby4{
+    margin-left: 690px;
+}
+.Reals img{
+   height: 50vh;
+   width: 100%; 
+}
+#dada{
+   padding-top: 50px; 
+    display: flex;
+    height: 310px;
+    justify-content: space-evenly;
+}
+.class2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    
+    
+
+}
+ .class2 div{
+    
+    background-color: white;
+    margin: 10px;
+    
+    
+}
+/*.class2 div img{
+    width: 240px;
+    height: 200px;
+    object-fit: contain;
+} */
+@media(max-width:1024px){
+    class2{
+        display: grid;
+        grid-template-columns: auto auto auto;
+       
+    }
+    img
+}
+@media(max-width:768){
+    .class2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width:455){
+    .class2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    img
+}
+@media (max-width:200 ){
+    .class2{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
